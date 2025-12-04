@@ -38,7 +38,7 @@ Se exploraron varios modelos, desde redes neuronales recurrentes hasta modelos d
 - **SARIMA:** Un modelo estadístico clásico que, a pesar de su robustez teórica, no pudo competir con los modelos de machine learning en este problema complejo.
 
 ### Justificación de la Selección del Modelo
-Se seleccionó **XGBoost** para el reporte final por su excelente equilibrio entre precisión (R² de ~0.69) y eficiencia computacional. Su capacidad para manejar un gran número de características y capturar interacciones no lineales lo hace ideal para este problema.
+Se seleccionó **XGBoost** para el reporte final por su excelente equilibrio entre precisión (R² de ~0.71) y eficiencia computacional. Su capacidad para manejar un gran número de características y capturar interacciones no lineales lo hace ideal para este problema.
 
 ### Diagnóstico de Residuos
 ![Residuals Plot](report_images/residuals.png)
@@ -74,7 +74,7 @@ Se seleccionó **XGBoost** para el reporte final por su excelente equilibrio ent
 ### Comparación de Métricas
 | Modelo  | R²     | MAE   | RMSE  | MAPE (%) |
 |---------|--------|-------|-------|----------|
-| GRU     | 0.6993 | 35.91 | 52.22 | 6.79     |
+| GRU     | 0.70978| 37.17 | 52.22 | 6.79     |
 | XGBoost | 0.6943 | 35.90 | 52.65 | 6.96     |
 | SARIMA  | -269.17| 1406.55| 1565.39| 264.59   |
 
