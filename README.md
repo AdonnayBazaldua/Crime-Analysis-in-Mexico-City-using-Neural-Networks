@@ -1,10 +1,10 @@
-# 🧠 Análisis de Delitos en la Ciudad de México mediante Redes Neuronales
+# Análisis de Delitos en la Ciudad de México mediante Redes Neuronales
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto aplica técnicas avanzadas de **Deep Learning** y **Redes Neuronales** para analizar y predecir patrones delictivos en la Ciudad de México durante el período 2016-2024. Utilizamos un dataset con aproximadamente **2.1 millones de registros** de carpetas de investigación de la Fiscalía General de Justicia de la CDMX.
 
-### 🎯 Objetivos
+### Objetivos
 
 1. **Clasificación de Delitos**: Implementar redes neuronales feedforward (MLP) para clasificar tipos de delitos basándose en características temporales, geográficas y contextuales
 2. **Predicción Temporal**: Utilizar redes recurrentes (LSTM/GRU) para predecir tendencias delictivas y patrones temporales
@@ -13,7 +13,7 @@ Este proyecto aplica técnicas avanzadas de **Deep Learning** y **Redes Neuronal
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Fuente**: Fiscalía General de Justicia de la Ciudad de México  
 **Período**: 2016 - 2024  
@@ -43,9 +43,9 @@ Este proyecto aplica técnicas avanzadas de **Deep Learning** y **Redes Neuronal
 
 ---
 
-## 🧪 Metodología
+## Metodología
 
-### 1️⃣ Preprocesamiento de Datos
+### Preprocesamiento de Datos
 
 - **Limpieza**: Manejo de valores nulos (~5% de datos geográficos faltantes)
 - **Feature Engineering**:
@@ -55,7 +55,7 @@ Este proyecto aplica técnicas avanzadas de **Deep Learning** y **Redes Neuronal
   - Creación de features de densidad delictiva por zona
 - **Balanceo**: Técnicas de over/under-sampling para clases desbalanceadas
 
-### 2️⃣ Arquitecturas de Redes Neuronales
+### Arquitecturas de Redes Neuronales
 
 #### 🔹 Multi-Layer Perceptron (MLP)
 **Objetivo**: Clasificación multi-clase de tipos de delitos
@@ -125,7 +125,7 @@ Decoder: Dense(32) → ReLU → Dense(64) → ReLU → Dense(128) → Dense(inpu
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 ### Frameworks de Deep Learning
 - **TensorFlow/Keras**: Construcción y entrenamiento de modelos
@@ -147,7 +147,7 @@ Decoder: Dense(32) → ReLU → Dense(64) → ReLU → Dense(128) → Dense(inpu
 
 ---
 
-## 📈 Evaluación y Métricas
+## Evaluación y Métricas
 
 ### Clasificación (MLP, CNN)
 - **Accuracy**: Porcentaje de predicciones correctas
@@ -168,7 +168,7 @@ Decoder: Dense(32) → ReLU → Dense(64) → ReLU → Dense(128) → Dense(inpu
 
 ---
 
-## 🗂️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 IA/
@@ -190,34 +190,7 @@ IA/
     └── autoencoder.h5
 ```
 
----
-
-## 🔍 Modelos Previos Implementados
-
-Este proyecto se construye sobre el trabajo previo con modelos clásicos de Machine Learning:
-
-1. **ADALINE** (`Red_ADALINE.ipynb`, `adaline_V1.1.ipynb`): Red neuronal adaptativa lineal para regresión y clasificación binaria
-2. **K-Nearest Neighbors** (`KNN.ipynb`): Clasificación supervisada basada en distancia
-3. **K-Means** (`plot clusters.ipynb`): Clustering no supervisado
-4. **Support Vector Machines** (`SVM.ipynb`): Clasificación con kernel trick
-5. **Clasificadores Generales** (`clasificadores.ipynb`): Comparación de múltiples algoritmos
-
----
-
-## 📝 Próximos Pasos
-
-### Fase Actual: Implementación
-1. ✅ Documentación del proyecto
-2. ⏳ Preprocesamiento y feature engineering
-3. ⏳ Implementación de MLP
-4. ⏳ Implementación de LSTM/GRU
-5. ⏳ Implementación de CNN espacial
-6. ⏳ Implementación de Autoencoder
-7. ⏳ Análisis comparativo final
-
----
-
-## 👥 Autores
+##  Autores
 
 **Adonnay Bazaldua**  
 Semestre VII - Inteligencia Artificial  
@@ -225,7 +198,7 @@ Proyecto de Redes Neuronales y Deep Learning
 
 ---
 
-## 📚 Referencias
+## Referencias
 
 - Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
 - Chollet, F. (2021). *Deep Learning with Python*. Manning Publications.
