@@ -193,8 +193,7 @@ IA/
 ##  Autores
 
 **Adonnay Bazaldua**  
-Semestre VII - Inteligencia Artificial  
-Proyecto de Redes Neuronales y Deep Learning
+
 
 ---
 
